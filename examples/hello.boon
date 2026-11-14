@@ -1,0 +1,11 @@
+# A first Boontune program
+tune greeting = "Hello from Boontune"
+tune name = "world"
+play greeting + ", " + name + "!"
+tune score = 7
+set score = score * 2
+if (score >= 14) {
+  play "Level reached."
+} else {
+  play "Keep going."
+}
