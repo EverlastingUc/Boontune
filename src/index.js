@@ -1,0 +1,1 @@
+import{Lexer}from"./lexer.js";import{Parser}from"./parser.js";import{Interpreter}from"./interpreter.js";export function run(source,options={}){const ast=new Parser(new Lexer(source).scan()).parse();const vm=new Interpreter(options);vm.interpret(ast);return vm;}export{Lexer,Parser,Interpreter};
