@@ -1,0 +1,2 @@
+export const T=Object.freeze({NUMBER:"NUMBER",STRING:"STRING",IDENT:"IDENT",TUNE:"TUNE",SET:"SET",PLAY:"PLAY",IF:"IF",ELSE:"ELSE",TRUE:"TRUE",FALSE:"FALSE",AND:"AND",OR:"OR",NOT:"NOT",PLUS:"PLUS",MINUS:"MINUS",STAR:"STAR",SLASH:"SLASH",PERCENT:"PERCENT",EQ:"EQ",EE:"EE",NE:"NE",LT:"LT",LE:"LE",GT:"GT",GE:"GE",LP:"LP",RP:"RP",LB:"LB",RB:"RB",NL:"NL",EOF:"EOF"});
+export class Token{constructor(type,lexeme,literal,line,column){Object.assign(this,{type,lexeme,literal,line,column});}}
