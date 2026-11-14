@@ -1,0 +1,1 @@
+{"name":"boontune","version":"0.1.0","description":"An original interpreted programming language","type":"module","bin":{"boontune":"./src/cli.js"},"scripts":{"test":"node --test"},"engines":{"node":">=20"},"license":"MIT"}
