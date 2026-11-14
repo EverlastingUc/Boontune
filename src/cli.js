@@ -1,0 +1,2 @@
+#!/usr/bin/env node
+import{readFile}from"node:fs/promises";import{run}from"./index.js";const file=process.argv[2];if(!file){console.error("Usage: boontune <file.boon>");process.exitCode=1;}else try{run(await readFile(file,"utf8"));}catch(e){console.error("Boontune: "+e.message);process.exitCode=1;}
